@@ -34,6 +34,7 @@ group :test do
 	gem 'capybara', '1.1.2' #works with rspec for user testing simulation
 	gem 'rb-inotify', '~> 0.9' #linux notifications
 	gem 'libnotify', '0.5.9' #gnome desktop notifications
+	gem 'factory_girl_rails', '4.1.0' #used with rspec for testing. helpful for model factories
 end
 
 group :production do

@@ -1,6 +1,8 @@
 SampleApp::Application.routes.draw do
 
-  get "users/new"
+  #this line below creates all the necessary named routes for our users resource.
+  #named routes are like: users_path, new_user_path, edit_user_path(user), etc.
+  resources :users
 
   root to: 'static_pages#home'
   
