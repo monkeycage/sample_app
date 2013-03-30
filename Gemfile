@@ -35,6 +35,8 @@ group :test do
 	gem 'rb-inotify', '~> 0.9' #linux notifications
 	gem 'libnotify', '0.5.9' #gnome desktop notifications
 	gem 'factory_girl_rails', '4.1.0' #used with rspec for testing. helpful for model factories
+	gem 'cucumber-rails', '1.2.1', :require => false #used for behaviiour driven development
+	gem 'database_cleaner', '0.7.0'
 end
 
 group :production do
